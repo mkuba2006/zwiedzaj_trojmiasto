@@ -1,0 +1,87 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./obrazy/image.png);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    padding-top: 150px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+ul li{
+    padding: 0;
+}
+#gdansk_div, #gdansk_div2 , #gdansk_div3 {
+    width: 500px;
+    height: 45px; 
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#gdansk_div{
+    background-color: #640D6B;
+}
+#gdansk_div2{
+    background-color: #AF1740;
+}
+#gdansk_div3{
+    background-color: #FFE700;
+}
+#gdansk_div button, #gdansk_div p{
+    font-size: 19px;
+    color: white;
+} 
+#gdansk_div2 button, #gdansk_div2 p{
+    font-size: 19px;
+    color: white;
+} 
+#gdansk_div3 button, #gdansk_div3 p{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+} 
+
+#main_tytul{
+    width: 500px;
+    background-color: #f0f4f8; 
+    height: 45px; 
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#gdansk_div button , #gdansk_div2 button , #gdansk_div3 button{
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#gdansk_div button:hover ~ #gdansk_div , #gdansk_div2 button:hover ~ #gdansk_div2, #gdansk_div3 button:hover ~ #gdansk_div3{
+    height: 450px;
+    background-color: rgb(66, 85, 85);
+}

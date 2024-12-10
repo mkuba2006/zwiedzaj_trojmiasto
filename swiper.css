@@ -1,0 +1,104 @@
+.swiper{
+    /* width: calc(100vw - 300px); */
+    width: calc(100vw- 300px);
+    height: 100vh;
+}
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: #F9E400 !important;
+}
+#sl1{
+    /* background-color: #17153B; */
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+#sl1 h1{
+    display: flex;
+    gap: 3px;
+}
+
+ul{
+  list-style-type: none;
+}
+#sl1{
+    color: #FFDE4D;
+}
+
+#sp1{
+    color: #FFDE4D;
+}
+
+#sp2{
+    color: #FFDE4D;
+}
+
+
+
+#sl3{
+    background: none;
+}
+#sl4{
+    background: none;
+}
+
+
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./obrazy/image.png');
+    background-position: center;
+    background-size: cover; 
+}
+
+.images-slides {
+    display: flex;
+    flex-direction: column;
+}
+
+#sl2 #container, #sl3 #container, #sl4 #container ,#sl5 #container{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+
+#sl3 h1, #sl4 h1 ,#sl5 h1{
+    font-size: 60px;
+    color: white;
+}
+
+#sl2 #container #text, #sl3 #container #text, #sl4 #container #text ,#sl5 #container #text{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    color: white;
+}
+
+
+@media screen and (max-width:1600px) {
+    #sl1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #sl1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    #sl3 h1, #sl4 h1, #sl5 h1 {
+        font-size: 40px;
+        color: white;
+    }
+}

@@ -1,0 +1,443 @@
+#offers{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+#offer1{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    overflow-y: visible;
+    padding: 20px;
+    height: 370px;
+    width: 370px;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+#offer1:hover{
+    transform: scale(1.02);
+    border-radius: 5px;
+}
+#back_bg1 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    top: 60%;
+    transform: rotate(-8deg) translate(-20px,10px);
+    z-index: 100;
+}
+#back_bg2 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: #AF1740;
+    top: 60%;
+    transform: rotate(-8deg) translate(-20px);
+    z-index: 100;
+}
+#back_bg3 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: #FABC3F;
+    top: 60%;
+    transform: rotate(-8deg) translate(-30px);
+    z-index: 100;
+}
+
+#img_box1{
+    z-index: 1;
+    margin: 0 auto;
+    /* transform: translateY(-80px); */
+}
+#img_box1 #mlyn{
+    width: 330px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#img_box2{
+    z-index: 1;
+    margin: 0 auto;
+    transform: translateY(15px);
+}
+#img_box2 #sopot{
+    height: 274px;
+}
+
+#text_box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 500;
+}
+
+#text_box1 #name{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 5px 0 1px 0;
+    border-radius: 15px;
+}
+#text_box1 #line {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: 0 0 15px 0;
+}
+#text_box1 #opis {
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-size: 15px;
+}
+
+
+#but1{
+    z-index: 200;
+    width: 125px;
+    margin: 0 auto;
+    transition: 1.3s ease;
+}
+
+#dodaj1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: none;
+    border-bottom: 2px;
+    width: 125px;
+    padding: 8px 15px 4px 15px;
+    transition: .4s ease;
+    color: white;
+}
+
+#under1{
+    display: block;
+    width: 0px;
+    height: 1px;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    transition: .4s ease;
+}
+
+#but1:hover #under1, #but1:hover #dodaj1{
+    width: 125px;
+    color: #000000;
+}
+
+#under2{
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #FFBF00;
+    margin: 0;
+    padding: 0;
+    transition: .4s ease;
+}
+#dodaj2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: none;
+    border-bottom: 2px;
+    width: 125px;
+    padding: 8px 15px 4px 15px;
+    transition: .4s ease;
+    color: white;
+}
+#but2{
+    z-index: 200;
+    width: 125px;
+    margin: 0 auto;
+    transition: 1.3s ease;
+}
+#but2:hover #under2, #but2:hover #dodaj2{
+    width: 125px;
+    color: #FFBF00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1800px) {
+
+    #offer1{
+        padding: 20px;
+        height: 340px;
+        width: 340px;
+    }
+    
+    #back_bg1 {
+        transform: rotate(-8deg) translate(-30px,0px);
+    }
+    #back_bg2 {
+        transform: rotate(-8deg) translate(-30px,0px);
+    }
+    #back_bg3 {
+        transform: rotate(-8deg) translate(-30px);
+    }
+    
+    #img_box2 #sopot{
+        height: 274px;
+    }
+    
+    #text_box1 #name{
+        transform: translateY(-10px);
+        font-size: 27px;
+        margin: 0;
+    }
+    #text_box1 #line {
+        width: 50px;
+        height: 3px;
+        margin: 0 0 15px 0;
+    }
+    
+    #dodaj1{
+        transform: translateY(-10px);
+        font-size: 18px;
+    }
+    
+    #under1{
+        transform: translateY(-10px);
+    }
+    
+    
+    #under2{
+        transform: translateY(-10px);
+    }
+    #dodaj2{
+        transform: translateY(-10px);
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1600px) {
+    #offers{
+        margin-top: 10px;
+        flex-wrap: nowrap;
+    }
+    #offer1{
+        padding: 20px;
+        height: 290px;
+        width: 290px;
+    }
+    
+
+    #img_box1{
+        z-index: 1;
+        margin: 0 auto;
+    }
+    #img_box1 #mlyn{
+        width: 270px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    #img_box2{
+        z-index: 1;
+        margin: 0 auto;
+        transform: translateY(15px);
+    }
+    #img_box2 #sopot{
+        height: 220px;
+    }
+
+
+
+
+
+    #back_bg1 {
+        transform: rotate(-8deg) translate(-30px,-5px);
+    }
+    #back_bg2 {
+        transform: rotate(-8deg) translate(-30px,0px);
+    }
+    #back_bg3 {
+        transform: rotate(-8deg) translate(-30px,-5px);
+    }
+    
+    
+    #text_box1 #name{
+        transform: translateY(-5px);
+        font-size: 25px;
+        margin: 0;
+    }
+    #text_box1 #line {
+        width: 50px;
+        height: 3px;
+        margin: 0 0 15px 0;
+    }
+    
+    
+    #dodaj1{
+        transform: translateY(-5px);
+        font-size: 18px;
+    }
+    #under1{
+        transform: translateY(0px);
+    }
+    #but2 {
+        z-index: 200;
+        height: auto;
+        width: 125px;
+        margin: 0 auto;
+        padding: 0px 0 4px 0;
+        transition: 1.3s ease;
+    }
+    #back_bg2 {
+        width: 456px;
+    }    
+    #under2{
+        transform: translateY(0px);
+    }
+    #dodaj2{
+        transform: translateY(5px);
+        font-size: 18px;
+        padding: 0 0 4px 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1430px) {
+    #offers{
+        margin-top: 30px;
+        flex-wrap: nowrap;
+    }
+    #offer1{
+        padding: 20px;
+        height: 230px;
+        width: 230px;
+    }
+    
+
+    #img_box1{
+        z-index: 1;
+        margin: 0 auto;
+    }
+    #img_box1 #mlyn{
+        width: 220px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    #img_box2{
+        z-index: 1;
+        margin: 0 auto;
+        transform: translateY(15px);
+    }
+    #img_box2 #sopot{
+        height: 180px;
+    }
+
+
+
+
+
+    #back_bg1 {
+        transform: rotate(-8deg) translate(-30px,-30px);
+    }
+    #back_bg2 {
+        transform: rotate(-8deg) translate(-30px,-20px);
+    }
+    #back_bg3 {
+        transform: rotate(-8deg) translate(-30px,-30px);
+    }
+    
+    
+    #text_box1 #name{
+        transform: translateY(-25px);
+        font-size: 20px;
+        margin: 0;
+    }
+    #text_box1 #line {
+        width: 50px;
+        height: 3px;
+        margin: 0 0 15px 0;
+    }
+    
+    
+    #dodaj1{
+        transform: translateY(-25px);
+        font-size: 18px;
+    }
+    #under1{
+        transform: translateY(0px);
+    }
+    #but2 {
+        z-index: 200;
+        height: auto;
+        width: 125px;
+        margin: 0 auto;
+        padding: 0px 0 4px 0;
+        transition: 1.3s ease;
+    }
+    #back_bg2 {
+        width: 456px;
+    }    
+    #under2{
+        transform: translateY(0px);
+    }
+    #xd{
+        position: relative;
+        transform: translateY(11px);
+    }
+    #dodaj2{
+        transform: translateY(-8px);
+        font-size: 18px;
+        padding: 0 0 4px 0;
+    }
+
+}
+
+
+
+/* 1220 */
