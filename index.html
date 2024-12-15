@@ -24,6 +24,14 @@
 
 </head>
 <body>
+
+    <div id="fog">
+        <h1>Strona w trakcie budowy</h1>
+    </div>
+
+
+
+
    <aside>
     <img id="logo" src="./obrazy/logo1.png">
     <ul id="aside_ul">
@@ -221,5 +229,35 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="./swiper1.js"></script>
         <script src="./swiper2.js"></script>
+
+    <style>
+        #fog{
+            background-color: rgba(0, 0, 0, 0.9);
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: azure;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        @media screen and (max-width:1400px) {
+            #fog{
+                font-size: 30px;
+            }
+        }
+
+
+        @media screen and (max-width:1000px) {
+            #fog{
+                font-size: 20px;
+            }
+        }
+    </style>
 </body>
+
 </html>
