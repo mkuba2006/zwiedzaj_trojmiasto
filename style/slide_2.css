@@ -102,43 +102,43 @@
 }
 
 .images-slides:nth-child(1n) {
-    background: url('./obrazy/Multimedia\ \(1\).jpg');
+    background: url('../obrazy/Multimedia\ \(1\).jpg');
 }
 
 .images-slides:nth-child(2n) {
-    background: url('./obrazy/Multimedia\ \(2\).jpg');
+    background: url('../obrazy/Multimedia\ \(2\).jpg');
 }
 
 .images-slides:nth-child(3n) {
-    background: url('./obrazy/Multimedia\ \(3\).jpg');
+    background: url('../obrazy/Multimedia\ \(3\).jpg');
 }
 
 .images-slides:nth-child(4n) {
-    background: url('./obrazy/Multimedia\ \(4\).jpg');
+    background: url('../obrazy/Multimedia\ \(4\).jpg');
 }
 
 .images-slides:nth-child(5n) {
-    background: url('./obrazy/Multimedia\ \(5\).jpg');
+    background: url('../obrazy/Multimedia\ \(5\).jpg');
 }
 
 .images-slides:nth-child(6n) {
-    background: url('./obrazy/Multimedia\ \(6\).jpg');
+    background: url('../obrazy/Multimedia\ \(6\).jpg');
 }
 
 .images-slides:nth-child(7n) {
-    background: url('./obrazy/Multimedia\ \(7\).jpg');
+    background: url('../obrazy/Multimedia\ \(7\).jpg');
 }
 
 .images-slides:nth-child(8n) {
-    background: url('./obrazy/Multimedia\ \(8\).jpg');
+    background: url('../obrazy/Multimedia\ \(8\).jpg');
 }
 
 .images-slides:nth-child(9n) {
-    background: url('./obrazy/Multimedia\ \(9\).jpg');
+    background: url('../obrazy/Multimedia\ \(9\).jpg');
 }
 
 .images-slides:nth-child(10n) {
-    background: url('./obrazy/Multimedia\ \(1\).jpg');
+    background: url('../obrazy/Multimedia\ \(1\).jpg');
 }
 
 
@@ -164,7 +164,7 @@
     }
     
     #sl2_about li{
-        background-image: url('./obrazy/verified1.png');
+        background-image: url('../obrazy/verified1.png');
         background-size: 25px 25px;
         background-repeat: no-repeat;
         background-position: 0 50%; 
@@ -276,7 +276,7 @@
     }
     
     #sl2_about li{
-        background-image: url('./obrazy/verified1.png');
+        background-image: url('../obrazy/verified1.png');
         background-size: 20px 20px;
         background-repeat: no-repeat;
         background-position: 0 50%; 
@@ -368,7 +368,7 @@
     }
     
     #sl2_about li{
-        background-image: url('./obrazy/verified1.png');
+        background-image: url('../obrazy/verified1.png');
         background-size: 18px 18px;
         background-repeat: no-repeat;
         background-position: 0 50%; 

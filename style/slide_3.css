@@ -441,3 +441,16 @@
 
 
 /* 1220 */
+
+
+@media screen and (max-width:1430px) {
+    #back_bg1 {
+        transform: rotate(-8deg) translate(-30px,-25px);
+    }
+    #back_bg2 {
+        transform: rotate(-8deg) translate(-30px,-12px);
+    }
+    #back_bg3 {
+        transform: rotate(-8deg) translate(-30px,-23px);
+    }
+}

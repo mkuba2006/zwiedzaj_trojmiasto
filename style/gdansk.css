@@ -3,7 +3,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./obrazy/image.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../obrazy/image.png);
     width: 100vw;
     height: 100vh;
     margin: 0;

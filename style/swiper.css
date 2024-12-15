@@ -54,7 +54,7 @@ ul{
     width: 130%;
     height: 100%;
     -webkit-background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./obrazy/image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../obrazy/image.png');
     background-position: center;
     background-size: cover; 
 }
@@ -66,7 +66,7 @@ ul{
 
 #sl2 #container, #sl3 #container, #sl4 #container ,#sl5 #container{
     display: flex;
-    padding: 50px;
+    padding: 30px 50px;
     flex-direction: column;
 }
 
