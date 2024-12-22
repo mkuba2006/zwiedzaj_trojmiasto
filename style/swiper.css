@@ -102,3 +102,12 @@ ul{
         color: white;
     }
 }
+
+
+@media screen and (max-width:1100px) {
+    #sl2 #container, #sl3 #container, #sl4 #container ,#sl5 #container{
+        display: flex;
+        padding: 100px 50px 30px 50px;
+        flex-direction: column;
+    }
+}

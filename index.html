@@ -25,11 +25,28 @@
 </head>
 <body>
 
-    <div id="fog">
+    <!-- <div id="fog">
         <h1>Strona w trakcie budowy</h1>
-    </div>
+    </div> -->
 
-
+    <nav>
+        <img id="logo2" src="./obrazy/logo1.png">
+        <!-- <div id="hrefs">
+            <a href="#sl1">
+                <button>O Mnie</button>
+            </a>
+            <a href="#sl3">
+                <button>Trasy</button>
+            </a>
+            <a href="#sl4">
+                <button>Blog</button>
+            </a>
+            <a href="#sl5">
+                <button>Kontakt</button>
+            </a>
+        </div> -->
+        <img src="./obrazy/roza.png" id="roza3">
+    </nav>
 
 
    <aside>
@@ -232,7 +249,10 @@
 
     <style>
         #fog{
-            background-color: rgba(0, 0, 0, 0.9);
+            overflow-y: hidden;
+            background: url('./obrazy/Multimedia\ \(5\).jpg');
+            background-position: center;
+            background-size: cover;
             position: absolute;
             width: 100vw;
             height: 100vh;
@@ -254,6 +274,8 @@
 
         @media screen and (max-width:1000px) {
             #fog{
+                background: url('./obrazy/gda.jpg');
+                background-position: bottom;
                 font-size: 20px;
             }
         }

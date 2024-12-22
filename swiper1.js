@@ -1,7 +1,7 @@
 const swiper1 = new Swiper(".mySwiper", {
     parallax: true,
     slideToClickedSlide: true,
-    speed: 600,
+    speed: 700,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,

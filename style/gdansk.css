@@ -3,19 +3,29 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../obrazy/image.png);
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    background-position: center;
-    background-size: cover;
     position: relative;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
 }
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(../obrazy/image.png);
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px); 
+    z-index: -1; 
+}
+
 
 
 ul{
@@ -33,32 +43,32 @@ ul li{
     width: 500px;
     height: 45px; 
     overflow: hidden;
-    transition: height 0.3s ease;
+    transition: height 0.4s ease;
     margin-bottom: 10px;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
 }
 #gdansk_div{
-    background-color: #640D6B;
+    background-color: #B7E0FF;
 }
 #gdansk_div2{
-    background-color: #AF1740;
+    background-color: #4CC9FE;
 }
 #gdansk_div3{
-    background-color: #FFE700;
+    background-color: #0D92F4;
 }
 #gdansk_div button, #gdansk_div p{
     font-size: 19px;
-    color: white;
+    color: #FFFBE6;
 } 
 #gdansk_div2 button, #gdansk_div2 p{
     font-size: 19px;
-    color: white;
+    color: #FFFBE6;
 } 
 #gdansk_div3 button, #gdansk_div3 p{
     font-size: 19px;
-    color: rgb(0, 0, 0);
+    color: #FFFBE6;
 } 
 
 #main_tytul{
@@ -85,3 +95,23 @@ ul li{
     height: 450px;
     background-color: rgb(66, 85, 85);
 }
+
+@media screen and (max-width:1100px) {
+
+    body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+        overflow-y: hidden;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+

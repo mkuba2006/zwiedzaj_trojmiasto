@@ -22,7 +22,6 @@
     border-radius: 20px;
     max-width: 1300px;
 }
-
 #sl2_about{
     margin: 5px 0 0 5px;
     list-style: none;
@@ -31,7 +30,7 @@
 }
 
 #sl2_about li{
-    background-image: url('./obrazy/verified1.png');
+    background-image: url('../obrazy/verified1.png');
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: 0 50%; 
