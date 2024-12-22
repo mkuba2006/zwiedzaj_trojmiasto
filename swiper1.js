@@ -1,18 +1,30 @@
 const swiper1 = new Swiper(".mySwiper", {
+    direction: "vertical",
     parallax: true,
     slideToClickedSlide: true,
     speed: 700,
+    freeMode: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-    mousewheel: true, 
+    mousewheel: true,
+    breakpoints: {
+        850: {
+            autoHeight: '2000px',
+            direction: "horizontal", 
+            slidesPerView: 'auto', 
+            spaceBetween: 100, 
+            freeMode: true, 
+        }
+    },
     on: {
         slideChange: function () {
             updateActiveButton(swiper1.activeIndex);
         }
     }
 });
+
 
 document.querySelectorAll('aside a').forEach((link, index) => {
     link.addEventListener('click', (e) => {

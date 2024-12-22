@@ -433,3 +433,39 @@
         width: 40px;
     }
 }
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    #rest{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 70vw;
+        align-items: center;
+    }
+    
+    #sl2_content{
+        width: 80vw;
+        align-items: center;
+        font-size: 15px;
+        padding: 50px 39px 127px 39px;
+        border-radius: 20px;
+        max-width: 650px;
+    }
+    
+    #sl2_about{
+        margin: 5px 0 0 5px;
+        list-style: none;
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    #sl2_text{
+        max-width: 650px;
+    }
+
+
+}

@@ -454,3 +454,25 @@
         transform: rotate(-8deg) translate(-30px,-23px);
     }
 }
+
+
+
+@media screen and (max-width: 850px) {
+    #offers {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #offer1 {
+        padding: 20px;
+        height: 230px;
+        width: 80vw;
+    }
+    #back_bg2 {
+        width: 600px;
+        transform: rotate(-8deg) translate(-10px, -12px);
+    }
+    #back_bg3 {
+        transform: rotate(-8deg) translate(-35px, -23px);
+    }
+}
