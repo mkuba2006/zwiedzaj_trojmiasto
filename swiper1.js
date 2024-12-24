@@ -1,29 +1,49 @@
-const swiper1 = new Swiper(".mySwiper", {
-    direction: "vertical",
-    parallax: true,
-    slideToClickedSlide: true,
-    speed: 700,
-    freeMode: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    mousewheel: true,
-    breakpoints: {
-        850: {
-            autoHeight: '2000px',
-            direction: "horizontal", 
-            slidesPerView: 'auto', 
-            spaceBetween: 100, 
-            freeMode: true, 
+const bodyWidth = document.body.clientWidth;
+if (bodyWidth >'850'){
+    const swiper1 = new Swiper(".mySwiper", {
+        parallax: true,
+        slideToClickedSlide: true,
+        speed: 700,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        mousewheel: true,
+        on: {
+            slideChange: function () {
+                updateActiveButton(swiper1.activeIndex);
+            }
         }
-    },
-    on: {
-        slideChange: function () {
-            updateActiveButton(swiper1.activeIndex);
+    });
+}else{
+    const swiper1 = new Swiper(".mySwiper", {
+        direction: "vertical", 
+        parallax: false,
+        slideToClickedSlide: false,
+        speed: 10,
+        freeMode: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        mousewheel: true,
+        breakpoints: {
+            850: {
+                autoHeight: '2000px',
+                direction: "horizontal", 
+                slidesPerView: 'auto', 
+                spaceBetween: 100, 
+                freeMode: true, 
+            }
+        },
+        on: {
+            slideChange: function () {
+                updateActiveButton(swiper1.activeIndex);
+            }
         }
-    }
-});
+    });
+}
+
 
 
 document.querySelectorAll('aside a').forEach((link, index) => {

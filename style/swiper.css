@@ -148,7 +148,14 @@ ul{
     }
 
     #sl3{
-        height: auto !important;; 
+        height: auto !important;
+    }
+    #sl1 {
+        justify-content: flex-start;
+        box-sizing: border-box;
+        font-size: 18px;
+        padding: 200px 20px 0 20px;
+        max-height: 700px !important;
     }
 }
 .swiper-slide {
@@ -165,4 +172,31 @@ ul{
         max-width: 400px;
     }
 
+}
+@media screen and (max-width: 1100px) {
+    #sl2 #container, #sl3 #container, #sl4 #container, #sl5 #container {
+        display: flex;
+        padding: 100px 0 30px 0;
+        flex-direction: column;
+    }
+    #sl3 h1, #sl4 h1, #sl5 h1 {
+        font-size: 40px;
+        color: white;
+        padding-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .mySwiper .swiper-pagination-bullet-active {
+        background-color: #21014e !important;
+    }
+    .parallax-bg {
+        background: white;
+    }
+    #sl3 h1, #sl4 h1, #sl5 h1 {
+        font-size: 40px;
+        color: black;
+        padding-left: 30px;
+    }
 }

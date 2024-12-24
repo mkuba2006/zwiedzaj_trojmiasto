@@ -468,11 +468,61 @@
         height: 230px;
         width: 80vw;
     }
+    #back_bg1{
+        width: 800px;
+    }
     #back_bg2 {
-        width: 600px;
-        transform: rotate(-8deg) translate(-10px, -12px);
+        width: 800px;
+        transform: rotate(-8deg) translate(-10px, -22px);
     }
     #back_bg3 {
+        width: 800px;
         transform: rotate(-8deg) translate(-35px, -23px);
+    }
+}
+
+
+
+
+@media screen and (max-width: 440px) {
+    #offers {
+        background: white;
+        gap: 65px;
+    }
+    #text_box1 #name{
+        padding: 0;
+    }
+
+    #offer1{
+        position: relative;
+        overflow: visible;
+
+        border-radius: 0;
+        padding: 20px;
+        height: 230px;
+        width: 100vw;
+    }
+
+
+    #back_bg1 {
+        position: absolute;
+        width: 600px;
+        height: 125px;
+        top: 60%;
+        transform: rotate(-8deg) translate(-80px, -25px);
+    }
+    #back_bg2 {
+        position: absolute;
+        width: 600px;
+        height: 125px;
+        top: 60%;
+        transform: rotate(-8deg) translate(-80px, -22px);
+    }
+    #back_bg3 {
+        position: absolute;
+        width: 600px;
+        height: 125px;
+        top: 60%;
+        transform: rotate(-8deg) translate(-80px, -25px);
     }
 }

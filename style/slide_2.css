@@ -466,6 +466,33 @@
     #sl2_text{
         max-width: 650px;
     }
+    #sl2_text h1 {
+        font-size: 40px;
+        margin: 2px 0;
+    }
+    #sl2_text h3{
+        margin: 2px 0;
+    }
+}
 
 
+
+
+@media screen and (max-width: 500px) {
+
+    #sl2_content{
+        width: 100vw;
+        font-size: 15px;
+        padding: 45px 10px 127px 10px;
+        border-radius: 0px;
+        max-width: 650px;
+    }
+    #rest {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 85vw;
+        padding: 0 120px;
+        align-items: center;
+    }
 }
