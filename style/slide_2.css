@@ -483,7 +483,7 @@
     #sl2_content{
         width: 100vw;
         font-size: 15px;
-        padding: 45px 10px 127px 10px;
+        padding: 45px 0 127px 0;
         border-radius: 0px;
         max-width: 650px;
     }
@@ -492,7 +492,7 @@
         flex-direction: column;
         gap: 40px;
         width: 85vw;
-        padding: 0 120px;
+        padding: 0;
         align-items: center;
     }
 }

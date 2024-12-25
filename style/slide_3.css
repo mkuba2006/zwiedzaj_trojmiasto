@@ -484,10 +484,13 @@
 
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
     #offers {
         background: white;
-        gap: 65px;
+        gap: 0;
+        overflow-x: hidden;
+        overflow-y: visible;
+        height: 1100px;
     }
     #text_box1 #name{
         padding: 0;
@@ -496,11 +499,10 @@
     #offer1{
         position: relative;
         overflow: visible;
-
         border-radius: 0;
-        padding: 20px;
-        height: 230px;
-        width: 100vw;
+        padding: 0;
+        height: 260px;
+        width: 96vw;
     }
 
 
