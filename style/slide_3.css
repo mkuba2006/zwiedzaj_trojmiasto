@@ -397,6 +397,7 @@
         transform: translateY(-25px);
         font-size: 20px;
         margin: 0;
+        padding: 0;
     }
     #text_box1 #line {
         width: 50px;
@@ -511,20 +512,27 @@
         width: 600px;
         height: 125px;
         top: 60%;
-        transform: rotate(-8deg) translate(-80px, -25px);
+        transform: rotate(-8deg) translate(-80px, -31px);
     }
+    #under1 {
+        transform: translateY(-25px);
+    }
+    #under2 {
+        transform: translateY(-4px);
+    }
+    
     #back_bg2 {
         position: absolute;
         width: 600px;
         height: 125px;
         top: 60%;
-        transform: rotate(-8deg) translate(-80px, -22px);
+        transform: rotate(-8deg) translate(-80px, -31px);
     }
     #back_bg3 {
         position: absolute;
         width: 600px;
         height: 125px;
         top: 60%;
-        transform: rotate(-8deg) translate(-80px, -25px);
+        transform: rotate(-8deg) translate(-80px, -31px);
     }
 }
