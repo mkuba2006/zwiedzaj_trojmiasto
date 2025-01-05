@@ -1,0 +1,353 @@
+#sl5 #container #obj{
+    background-color: white;
+    color: black;
+    padding: 50px 70px ;
+    border-radius: 20px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 3vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formluarz h2{
+    font-size: 40px;
+}
+
+input{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#set {
+    background: linear-gradient(90deg, #8B5DFF 50%, #563A9C 120%);
+    font-size: 26px;
+    background-size: 200%;
+    background-position: left;
+    width: min-content;
+    padding: 10px 25px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    transition: background-position 0.2s ease-in;
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+label{
+    font-size: 22px;
+}
+#message{
+    height: 190px;
+    border-radius: 10px;
+}
+#set:hover {
+    background-position: right;
+}
+
+#tresc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#tresc h2, #formluarz h2{
+    background: linear-gradient(90deg, #8B5DFF 50%, #563A9C 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-weight: 700;
+}
+#formluarz h2{
+    display: none;
+}
+#tresc h3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tresc h3 a{
+    color: #563A9C;
+    padding-left: 5px;
+}
+#reszta{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#xxx2{
+    display: flex;
+    flex-direction: column;
+}
+
+#xxx2 div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1500px) {
+    #sl5 h1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1480px) {
+    #sl5 #container #obj{
+        padding: 45px 50px ;
+        border-radius: 18px;
+        gap: auto;
+        margin-top: 40px;
+    }
+    
+    
+    
+    input{
+        font-size: 20px;
+        height: 35px;
+        width: 350px;
+    }
+    
+    #set {
+        font-size: 24px;
+    }
+    
+    #message{
+        height: 150px;
+    }
+    
+    #reszta{
+        align-items: center;
+    }
+    #tresc h2, #formluarz h2{
+        background: linear-gradient(90deg, #8B5DFF 50%, #563A9C 120%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: -1px;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    #plane{
+        width: 400px;
+    }
+    #formluarz h2{
+        display: none;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 1360px) {
+    #sl5 #container #obj{
+        padding: 45px 50px ;
+        border-radius: 18px;
+        gap: auto;
+        margin-top: 0;
+    }
+    
+    #formluarz h2{
+        display: flex;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    #reszta{
+        display: none;
+    }
+    input{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 1px solid grey;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    
+    label{
+        font-size: 22px;
+    }
+    #message{
+        height: 190px;
+        border-radius: 10px;
+    }
+    #set:hover {
+        background-position: right;
+    }
+
+    #xxx2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #email{
+        margin-bottom: 15px;
+    }
+    #xxx2 div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    #sl5 #container #obj {
+        padding: 25px 30px;
+    }
+    #formluarz h2{
+        display: flex;
+        font-size: 40px;
+        justify-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    #reszta{
+        display: none;
+    }
+    input{
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        padding: 4px 8px;
+        border: 1px solid grey;
+        height: 30px;
+        width: 215px;
+        border-radius: 10px;
+    }
+    
+    
+    label{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    #message{
+        height: 100px;
+        border-radius: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+    }
+    #set:hover {
+        background-position: right;
+    }
+
+    #xxx2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #email{
+        margin-bottom: 8px;
+    }
+    #name{
+        width: 100px;
+    }
+    #xxx2 div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    #set {
+        font-size: 22px;
+        padding: 8px 20px;
+        margin-top: 5px;
+    }    #tre{
+        margin: 0;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    #sl5 #container{
+        background-color: #ACFADF;
+    }
+    #sl5 #container #obj {
+        padding: 45px 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background: none;
+    }
+    #formluarz h2 {
+        font-size: 35px;
+    }
+    #set {
+        font-size: 20px;
+    }
+    input{
+        border: 0px;
+    }
+}

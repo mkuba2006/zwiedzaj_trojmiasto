@@ -2,16 +2,26 @@
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 5vw;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
     position: relative;
-    overflow-y: hidden;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 100px;
 }
-
+#wspolny_element{
+    margin-top: 150px;
+    display: flex;
+    border: none;
+    width: 600px;
+    height: 400px;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 12px;
+}
 body::before {
     content: "";
     position: absolute;
@@ -19,17 +29,26 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(../obrazy/image.png);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(../obrazy/image.png); */
+    background-color: white;
     background-position: center;
     background-size: cover;
     filter: blur(2px); 
     z-index: -1; 
 }
 
-
-
+#suma{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 10px 40px;
+    height: 760px;
+    margin-top: 50px;
+}
 ul{
-    padding-top: 150px;
+    padding-top: 50px;
     justify-content: flex-start;
     display: flex;
     flex-direction: column;
@@ -39,41 +58,52 @@ ul{
 ul li{
     padding: 0;
 }
-#gdansk_div, #gdansk_div2 , #gdansk_div3 {
-    width: 500px;
-    height: 45px; 
+
+#trasy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 420px;
+    margin: 0;
+    padding: 0;
+}
+#trasa {
+    background-color: #f5f5f8;
+    width: 200px;
+    height: 110px; 
     overflow: hidden;
-    transition: height 0.4s ease;
-    margin-bottom: 10px;
+    transition: height 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+    margin-bottom: 0;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bbbbbb;
+    cursor: pointer;
 }
-#gdansk_div{
-    background-color: #B7E0FF;
-}
-#gdansk_div2{
-    background-color: #4CC9FE;
-}
-#gdansk_div3{
-    background-color: #0D92F4;
-}
-#gdansk_div button, #gdansk_div p{
-    font-size: 19px;
-    color: #FFFBE6;
-} 
-#gdansk_div2 button, #gdansk_div2 p{
-    font-size: 19px;
-    color: #FFFBE6;
-} 
-#gdansk_div3 button, #gdansk_div3 p{
-    font-size: 19px;
-    color: #FFFBE6;
-} 
 
+#trasa button, #trasa p {
+    font-size: 19px;
+}
+
+#trasa:hover, #trasa:hover button {
+    background-color: #e1e1fc;
+    color: #5d5fef;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+
+
+#tablica_gdansk, #tablica_sopot , #tablica_gdynia{
+    height: min-content;
+}
 #main_tytul{
-    width: 500px;
-    background-color: #f0f4f8; 
+    color: #5d5fef;
+    /* background-color: #f0f4f8;  */
+    background: none;
     height: 45px; 
     border-radius: 10px;
     font-size: 30px;
@@ -83,18 +113,39 @@ ul li{
     margin-bottom: 20px;
 }
 
-#gdansk_div button , #gdansk_div2 button , #gdansk_div3 button{
+#trasa button {
+    width: max-content;
     background: none;
     border: none;
-    font-size: 25px;
+    font-size: 18px;
     padding: 0;
     cursor: pointer;
 }
 
-#gdansk_div button:hover ~ #gdansk_div , #gdansk_div2 button:hover ~ #gdansk_div2, #gdansk_div3 button:hover ~ #gdansk_div3{
+#gdansk_div button:hover ~ #gdansk_div{
     height: 450px;
     background-color: rgb(66, 85, 85);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1100px) {
 

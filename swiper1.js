@@ -85,7 +85,15 @@ function setupNavigation() {
         });
     });
 }
-
+function setupNavigation2() {
+    document.querySelectorAll("#nav_ul a").forEach((link) => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const slideIndex = parseInt(link.getAttribute("data-swiper-slide"));
+            swiper1.slideTo(slideIndex);
+        });
+    });
+}
 function setupButtonClickHandlers() {
     const buttons = document.querySelectorAll("ul a button");
 
@@ -103,5 +111,8 @@ document.addEventListener("DOMContentLoaded", () => {
     initializeSwiper();
     setupHoverEffects();
     setupNavigation();
+    setupNavigation2()
     setupButtonClickHandlers();
 });
+
+

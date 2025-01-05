@@ -4,20 +4,36 @@ const miasta = [
         trasy: [
             {
                 nazwa: "Droga Królewska",
-                opis:'Trasa na Głównym Mieście wiedzie przez reprezentacyjną ulicę Długą i Długi Targ. Drogę tę przemierzali wielcy tego świata, w tym orszaki królewskie władców. W trakcie tego spaceru poznacie historie wielu patrycjuszy gdańskich, w tym Johanna Uphagena, Maurycego, czy Konstantego Ferbera. Opowiem o wielu ciekawych gdańskich legendach, czy też o wyjątkowych gdańskich budowlach. Miejscem wyjątkowym, godnym polecenia i obejrzenia jest Bazylika Najświętszej Marii Panny.'
+                opis:'Zwiedzanie zaczynamy od Bramy Wyżynnej, łączącej funkcję obronną i reprezentacyjną. Obejrzymy Zespół Przedbramia, Dwór Bractwa św.  Jerzego, Złotą Bramę (zwaną niegdyś Bramą Dlugouliczną). Zwiedzając ulicę Długą przyjrzymy się wyjątkowym kamieniczkom. Zobaczymy Dom Uphagena, kamienicę Czirenbergów, Ferberow, a także wyjątkowy Ratusz Glównego Miasta. Poznamy historię powstania Fontanny Neptuna, a także widniejącego tuż za nim Dworu Artusa. Na Długim Targu możemy przyjrzeć się wyjątkowej Złotej Kamienicy, kolumnie meteorologicznej Fahrenheita, kamienicy podcieniowej, a także Zielonej Bramie i Zielonym Moście. Tam możemy zakończyć nasz spacer. Czas ok. 3 godzininy.'
+            },
+            {
+                nazwa: "Droga Królewska wraz z Kościołem Mariackim",
+                opis:'Spacer wiedzie jak w trasie 1. Za Zieloną Bramą skręcamy w lewo. Poznajemy historię fortyfikacji, bram wodnych. Dochodzimy do ulicy Mariackiej, ulicy Plebani, a następnie zwiedzamy Bazylikę Mariacką. Na zakończenie spaceru zaproszę do Wiekiej Zbojowni. Czas zwiedzania to około 4 godziny.'
+            },
+            {
+                nazwa: "Stare Przedmieście i Dolne Miasto",
+                opis:'Spacer rozpoczynamy przed siedzibą Urzędu Marszałkowskiego Województwa Pomorskiego, obejrzymy pozostałości dawnych fortyfikacji przy ulicy Okopowej , budynek Gimnazjum Polskiego, idąc przy Baszcie Białej skręcamy przy Małej Zbrojowni, obecnie budynkach ASP w Gdańsku, Wydział Rzeźby i Multimediów. Potem zdobywamy Bastion św. Gertrudy, Bramę Nizinną.  Bastion Żubr i Śluzę Kamienną. Idąc obok Bastionu Wilk i Wyskok dochodzmy do robotniczej części miasta, w której możemy zapoznać się z ciekawą historia Dworu Uphagena, kościołem przy ulicy Łąkowej. Na koniec poznamy ciekawą architekturę i historię Fabryki Karabinów, Fabrykę Monopolu Tytoniowego. Tu zakończymy spacer. Czas trwania to około 2 godziny.'
             },
             {
                 nazwa: "Stare Miasto",
-                opis:'To najstarsza dzielnica Gdańska. To właśnie tu rozwijało się miasto przed 1308 rokiem. To w jej obszarze powstawały średniowieczne zakłady przemysłowe budowane na lub przy rzece Radunia. Tutaj możemy do dnia dzisiejszego podziwiać średniowieczny młyn zwany Wielkim Młynem. Poznamy też historie gotyckich kościołów św. Katarzyny, św. Brygidy, czy też ciekawą bryłę Ratusza Staromiejskiego.'
+                opis:'Spacer poświecony dawnym rzemieślnikom, ludziom nauki i tym którzy nie wachali się pomagać potrzebującym. Rozpoczynamy nasze zwiedzanie przy kościele św. Elżbiety, przechodzimy pod kocioł św. Józefa , następnie pod Dom Opatów Pelplinskich, Ratusz Staromiejski, pomnik Jana Heweliusza, Wielki Młyn. Potem po drugiej stronie ulicy zobaczymy piękny gotycki kosciol św. Katarzyny. Tuż za nim stoi kolejna piękna budowla kościół p.w. św. Brygidy. Miejsca i budynki na tym spacerze nierozerwalnie łączą się z ciekawą historią naszego miasta. Czas spaceru to około 3 godziny.'
             },
             {
-                nazwa: "Fortyfikacje miejskie",
-                opis:'Spacer wiodący przez bramy wodne (tym bardziej ciekawe, że do dnia dzisiejszego możemy podziwiać 8 z 9 bram), zobaczymy pozostałości Zamku Krzyżackiego, bramy lądowe, baszty, mury broniące dostępu do miasta. Zwiedzając Zespół Przedbramią zapoznamy się z jego budową, historią oblężeń Gdańska w roźnych okresach jego historii, a także z pracą kata i legendami których w Gdańsku nie brakuje.'
+                nazwa:'Wrzeszcz - a właściwie Dolny Wrzeszcz',
+                opis:'Dzielnica Gdańska nierozerwalnie związana z pisarzem Gùnterem Grassem. Podczas spaceru zobaczymy jego małą ojczyznę, pięknie opisaną w jego utorach, Blaszanym bębenku, Kocie i myszy czy Psich latach. Czas spaceru to około 2,5 godziny.'
             },
             {
-                nazwa: "Oliwa-punkt",
-                opis:'Punkt na szlaku cysterskim. Poznamy historie osadnictwa i budowy klasztoru, a także dzieje mnichów, których życiowym mottem było - Ora et labora, czyli módł się i pracuj. Zwiedzimy Katedrę, obejrzymy wiele dzieł sztuki w tym obrazy Hermana Hana. jednego z najsłynniejszych malarzy epoki baroku, wyjątkowy ołtarz główny z obrazem Andreasa Stecha. Posłuchamy muzyki organowej. Wychodząc z katedry wejdziemy do parku, aby spokojnie przespacerować się po części francuskiej i angielskiej tego wyjątkowego parku.'
-            }
+                nazwa:'Urokliwy Dolny Wrzeszcz',
+                opis:'Spacer rozpoczynamy w Parku Kuźniczki, potem przechodzimy przez Browar w kierunku Placu Wybickiego, gdzie stoi ławeczka Grassa. Obejrzymy gmach II LO na Pestalozziego, potem podejdziemy pod dom noblisty mieszczący się przy Lelewela. Potem rondo i ulica Wajdeloty, park nad Strzyżą. Warto obejrzeć kościół św. Andrzeja Boboli, przejść się ulicą Stanisława Dubois, Bolesława Chrobrego. Spacer Warto zakończyć przy koszarach na Legionów. Czas spaceru to około 2,5 godziny.'
+            },
+            {
+                nazwa:'Oliwa ',
+                opis:'Przepiękna część Gdańska z katedrą i parkiem, na zawsze związana z historią naszego regionu. Poza Archikatedrą możemy zobaczyć kościół św. Jakuba, Dom św. Bernarda i tzw. Szkołę czerwoną, Młyn, Staw Młyński, Dom Zarazy, Stary Rynek Oliwski. Na koniec warto odpocząć w parku. Czas zwiedzania około 3 godziny.'
+            },
+            {
+                nazwa:'Westerplatte ',
+                opis:'To wyjątkowej miejsce na mapie turystycznej. Trzeba tu przyjechać (można też przypłynąć) aby zapoznać się z historią tego wyjątkowego skrawka Polski. Czas zwiedzania to około 3 godziny.'
+            },
         ],
     },
 
@@ -26,20 +42,12 @@ const miasta = [
         miasto: "Sopot",
         trasy: [
             {
-                nazwa: "Droga Królewska",
-                opis:'Trasa na Głównym Mieście wiedzie przez reprezentacyjną ulicę Długą i Długi Targ. Drogę tę przemierzali wielcy tego świata, w tym orszaki królewskie władców. W trakcie tego spaceru poznacie historie wielu patrycjuszy gdańskich, w tym Johanna Uphagena, Maurycego, czy Konstantego Ferbera. Opowiem o wielu ciekawych gdańskich legendach, czy też o wyjątkowych gdańskich budowlach. Miejscem wyjątkowym, godnym polecenia i obejrzenia jest Bazylika Najświętszej Marii Panny.'
+                nazwa: "Centrum Sopotu",
+                opis:'Spacer, podczas którego zobaczymy najbardziej znane budynki i miejsca letniej stolicy Polski. Zaczniemy od Ratusza w Sopocie, przejdziemy ulicą Kościuszki w stronę Monte Cassino. Po drodze zobaczymy pocztę, kościół św. Jerzego, pomnik Parasolnika, Misia Wojtka. Skręcimy do Dworku Sierakowskich. Potem zejdziemy najbardziej znanym deptakiem w kierunku zatoki, mijając po drodze Krzywy Domek, pomnik Jasia Rybaka, Dom Zdrojowy i zakład Balneologiczny. Po odpoczynku na molo warto zagłębić się w historię Grand Hotelu i Jana Jerzego Haffnera, którego pomnik stoi w Parku Północnym. Na koniec warto wspomnieć o Agnieszce Osieckie i jej Teatrze Atelie. Czas trwania spaceru to około 3 godziny.'
             },
             {
-                nazwa: "Stare Miasto",
-                opis:'To najstarsza dzielnica Gdańska. To właśnie tu rozwijało się miasto przed 1308 rokiem. To w jej obszarze powstawały średniowieczne zakłady przemysłowe budowane na lub przy rzece Radunia. Tutaj możemy do dnia dzisiejszego podziwiać średniowieczny młyn zwany Wielkim Młynem. Poznamy też historie gotyckich kościołów św. Katarzyny, św. Brygidy, czy też ciekawą bryłę Ratusza Staromiejskiego.'
-            },
-            {
-                nazwa: "Fortyfikacje miejskie",
-                opis:'Spacer wiodący przez bramy wodne (tym bardziej ciekawe, że do dnia dzisiejszego możemy podziwiać 8 z 9 bram), zobaczymy pozostałości Zamku Krzyżackiego, bramy lądowe, baszty, mury broniące dostępu do miasta. Zwiedzając Zespół Przedbramią zapoznamy się z jego budową, historią oblężeń Gdańska w roźnych okresach jego historii, a także z pracą kata i legendami których w Gdańsku nie brakuje.'
-            },
-            {
-                nazwa: "Oliwa-punkt",
-                opis:'Punkt na szlaku cysterskim. Poznamy historie osadnictwa i budowy klasztoru, a także dzieje mnichów, których życiowym mottem było - Ora et labora, czyli módł się i pracuj. Zwiedzimy Katedrę, obejrzymy wiele dzieł sztuki w tym obrazy Hermana Hana. jednego z najsłynniejszych malarzy epoki baroku, wyjątkowy ołtarz główny z obrazem Andreasa Stecha. Posłuchamy muzyki organowej. Wychodząc z katedry wejdziemy do parku, aby spokojnie przespacerować się po części francuskiej i angielskiej tego wyjątkowego parku.'
+                nazwa: "Od zamierzchłej przeszłości po dzień dzisiejszy",
+                opis:'Chcąc dobrze poznać Sopot warto odwiedzić wczesnośredniowieczne grodzisko, zobaczyć jak żyli ludzie przed wiekami, zapoznać się z ich codziennym życiem, wierzeniami, zwyczajami. Potem przenieść się podczas spaceru do teraźniejszości, obejrzeć charakterystyczną dla Sopotu architekturę, poznać bogatą historię miasta. Z grodziska kierujemy się w stronę ulicy Monte Cassino, skręcamy w lewo, kierujemy się w stronę Zakładu Balneologicznego. Potem kierujemy się w stronę Grand Hotelu i pomnika Jana Jerzego Haffnera. Czas spaceru to około 3,5 godziny. Po wcześniejszym uzgodnieniu można zorganizować warsztaty w Grodzisku. (ognisko)'
             }
         ],
     },
@@ -50,167 +58,77 @@ const miasta = [
         miasto: "Gdynia",
         trasy: [
             {
-                nazwa: "Droga Królewska",
-                opis:'Trasa na Głównym Mieście wiedzie przez reprezentacyjną ulicę Długą i Długi Targ. Drogę tę przemierzali wielcy tego świata, w tym orszaki królewskie władców. W trakcie tego spaceru poznacie historie wielu patrycjuszy gdańskich, w tym Johanna Uphagena, Maurycego, czy Konstantego Ferbera. Opowiem o wielu ciekawych gdańskich legendach, czy też o wyjątkowych gdańskich budowlach. Miejscem wyjątkowym, godnym polecenia i obejrzenia jest Bazylika Najświętszej Marii Panny.'
+                nazwa: "Gdynia miastem z morza i marzeń",
+                opis:'Spacer rozpoczynamy przy dworcu Gdynia Główna, podejdziemy doSądu Rejonowego i Hali Targowej, a następnie kierujemy się w stronę ulicy 10 lutego. Po drodze mijamy pomnik Wysiedlonych Gdynian. Na rogu 10 lutego  3 maja możemy podziwiać wyjątkowy budynek zwany "Bankowcem",  po drugiej stronie budynek BGK, czy też budynek PLO. Dalej widzimy Pocztę Polską, Dom towarowy Batory, Dom wójta Radtkego. Przechodzimy na Skwer Kościuszki, Molo Południowe gdzie mamy doskonały widok na okoliczne kamienice, Sea Towers, Molo Rybackie, pomnik Tadeusza Wendy. Będąc tu warto wejść na pokład ORP Błyskawicy, czy też Daru Pomorza i poznać ich fascynującą historię. Ciekawym miejscem jest Akwarium gdyńskie, w którym i duzi i mali ciekawie mogą spędzić czas. Obok jest marina gdyńska, pomnik generała Zaruskiego, a tuż obok plaża miejska. Spacer kończymy przy Teatrze muzycznym. Czas spaceru bez zwiedzania okrętu i fregaty to około 3 godziny.'
             },
             {
-                nazwa: "Stare Miasto",
-                opis:'To najstarsza dzielnica Gdańska. To właśnie tu rozwijało się miasto przed 1308 rokiem. To w jej obszarze powstawały średniowieczne zakłady przemysłowe budowane na lub przy rzece Radunia. Tutaj możemy do dnia dzisiejszego podziwiać średniowieczny młyn zwany Wielkim Młynem. Poznamy też historie gotyckich kościołów św. Katarzyny, św. Brygidy, czy też ciekawą bryłę Ratusza Staromiejskiego.'
+                nazwa: "Kamienna Góra",
+                opis:'Na miejscu oglądamy Gdynię "z góry", poznajemy jej niezwykłą historię i architekturę zaczynając od Oksywia, przez budowę portu, rozwój miasta, na teraźniejszości kończąc. Po zaspokojeniu ciekawości warto przespacerować się pomiędzy wyjątkowymi rezydencjami, w których mieszkali niebanalni gdynianie, jak kapitan Burhard , czy hrabina Maria Magdalena Łosiowa z mężem komandorem Andrzejem Łosiem, która zasłynęła z tego, że zapragnęła przy swojej rezydencji mieć.... schron. Czas spaceru to około 3 godziny.'
             },
             {
-                nazwa: "Fortyfikacje miejskie",
-                opis:'Spacer wiodący przez bramy wodne (tym bardziej ciekawe, że do dnia dzisiejszego możemy podziwiać 8 z 9 bram), zobaczymy pozostałości Zamku Krzyżackiego, bramy lądowe, baszty, mury broniące dostępu do miasta. Zwiedzając Zespół Przedbramią zapoznamy się z jego budową, historią oblężeń Gdańska w roźnych okresach jego historii, a także z pracą kata i legendami których w Gdańsku nie brakuje.'
-            },
-            {
-                nazwa: "Oliwa-punkt",
-                opis:'Punkt na szlaku cysterskim. Poznamy historie osadnictwa i budowy klasztoru, a także dzieje mnichów, których życiowym mottem było - Ora et labora, czyli módł się i pracuj. Zwiedzimy Katedrę, obejrzymy wiele dzieł sztuki w tym obrazy Hermana Hana. jednego z najsłynniejszych malarzy epoki baroku, wyjątkowy ołtarz główny z obrazem Andreasa Stecha. Posłuchamy muzyki organowej. Wychodząc z katedry wejdziemy do parku, aby spokojnie przespacerować się po części francuskiej i angielskiej tego wyjątkowego parku.'
+                nazwa: "Sielskie Orłowo",
+                opis:'Nasz spacer zaczniemy od mola w Orłowie, przejdziemy się obok ławeczki Antoniego Suchanka, podejdziemy pod Adlerówkę i poznamy jej niezwykłą historię.  Tuż obok zobaczymy, a może i zwiedzimy Domek Żeromskiego. Promenadą Marysieńki udamy się do parku Kolibkowskiego. Tam zobaczymy grotę Marysieńki, dwór, stajnię i wozownię.  Na koniec spaceru podejdziemy pod pomnik poświęcony żołnierzom 2 Morskiego Pułku Strzelców i cmentarz kolibkowski. Czas trwania spaceru to około 2,5 godziny.'
             }
         ],
     },
 ];
 
+const wspolnyElement = document.createElement('div');
+wspolnyElement.id = 'wspolny_element';
+wspolnyElement.textContent = 'Wybierz trasę, aby zobaczyć szczegóły';
+document.body.prepend(wspolnyElement);
 
-const tablica_gdansk = document.getElementById('tablica_gdansk');
-const element = document.createElement('div');
-const dl = miasta[0].trasy.length;
+const sumaContainer = document.createElement('div');
+sumaContainer.id = 'suma';
+document.body.appendChild(sumaContainer);
 
-const ul = document.createElement('ul');
-const main_tytul = document.createElement('div');
-main_tytul.id = 'main_tytul'
-main_tytul.textContent = 'Gdańsk';
+function createTablica(miasto, divIdPrefix) {
+    const element = document.createElement('div');
+    element.id = divIdPrefix;
 
-ul.appendChild(main_tytul)
+    // Create a title for the city and append it directly to the city div
+    const mainTytul = document.createElement('div');
+    mainTytul.id = 'main_tytul';
+    mainTytul.textContent = miasto.miasto;
+    element.appendChild(mainTytul); // Append the title to the city container
 
-function resetHeights() {
-    const allDivs = document.querySelectorAll('#gdansk_div');
-    allDivs.forEach(div => {
-        div.style.height = '45px'; 
-    });
-}
+    const ul = document.createElement('ul');
+    ul.id='trasy';
 
-for (let i = 0; i < dl; i++) {
-    const div = document.createElement('div');
-    div.id = 'gdansk_div';
+    function resetHeights() {
+        const allDivs = document.querySelectorAll(`#${divIdPrefix}`);
+        allDivs.forEach(div => {
+            // div.style.height = '45px'; // Nieaktywne ustawianie wysokości
+        });
+    }
 
-    const button = document.createElement('button');
-    const p = document.createElement('p');
+    miasto.trasy.forEach((trasa, index) => {
+        const div = document.createElement('div');
+        div.classList.add('trasa'); // Add class 'trasa' for easy styling/targeting
+        div.id = `trasa`;
 
-    button.textContent = `${i+1} ${miasta[0].trasy[i].nazwa}`;
-    p.textContent = miasta[0].trasy[i].opis;
+        const button = document.createElement('button');
+        const p = document.createElement('p');
 
-    button.addEventListener('focus', () => {
-        resetHeights();  
-        div.style.height = '350px'; 
-    });
+        button.textContent = `${trasa.nazwa}`;
+        p.textContent = trasa.opis;
+        p.style.display = 'none';
 
-    div.appendChild(button);
-    div.appendChild(p);
-    ul.appendChild(div);
-}
+        button.addEventListener('click', () => {
+            resetHeights();
+            wspolnyElement.textContent = trasa.opis;
+        });
 
-element.appendChild(ul);
-tablica_gdansk.appendChild(element);
-
-
-
-
-
-
-
-
-
-
-
-const tablica_gdansk2 = document.getElementById('tablica_sopot');
-const element2 = document.createElement('div');
-const dl2 = miasta[0].trasy.length;
-
-const ul2 = document.createElement('ul');
-const main_tytul2 = document.createElement('div');
-main_tytul2.id = 'main_tytul'
-main_tytul2.textContent = 'Sopot';
-
-ul2.appendChild(main_tytul2)
-
-function resetHeights2() {
-    const allDivs = document.querySelectorAll('#gdansk_div2');
-    allDivs.forEach(div => {
-        div.style.height = '45px'; 
-    });
-}
-
-for (let i = 0; i < dl; i++) {
-    const div2 = document.createElement('div');
-    div2.id = 'gdansk_div2';
-
-    const button2 = document.createElement('button');
-    const p2 = document.createElement('p');
-
-    button2.textContent = `${i+1} ${miasta[0].trasy[i].nazwa}`;
-    p2.textContent = miasta[0].trasy[i].opis;
-
-    button2.addEventListener('focus', () => {
-        resetHeights2();  
-        div2.style.height = '350px'; 
+        div.appendChild(button);
+        div.appendChild(p);
+        ul.appendChild(div);
     });
 
-    div2.appendChild(button2);
-    div2.appendChild(p2);
-    ul2.appendChild(div2);
+    element.appendChild(ul);
+    sumaContainer.appendChild(element);
 }
 
-element2.appendChild(ul2);
-tablica_gdansk2.appendChild(element2);
-
-
-
-
-
-
-
-
-
-
-
-
-
-const tablica_gdansk3 = document.getElementById('tablica_gdynia');
-const element3 = document.createElement('div');
-const dl3 = miasta[0].trasy.length;
-
-const ul3 = document.createElement('ul');
-const main_tytul3 = document.createElement('div');
-main_tytul3.id = 'main_tytul'
-main_tytul3.textContent = 'Sopot';
-
-ul3.appendChild(main_tytul3)
-
-function resetHeights3() {
-    const allDivs = document.querySelectorAll('#gdansk_div3');
-    allDivs.forEach(div => {
-        div.style.height = '45px'; 
-    });
-}
-
-for (let i = 0; i < dl; i++) {
-    const div3 = document.createElement('div');
-    div3.id = 'gdansk_div3';
-
-    const button3 = document.createElement('button');
-    const p3 = document.createElement('p');
-
-    button3.textContent = `${i+1} ${miasta[0].trasy[i].nazwa}`;
-    p3.textContent = miasta[0].trasy[i].opis;
-
-    button3.addEventListener('focus', () => {
-        resetHeights3();  
-        div3.style.height = '350px'; 
-    });
-
-    div3.appendChild(button3);
-    div3.appendChild(p3);
-    ul3.appendChild(div3);
-}
-
-element3.appendChild(ul3);
-tablica_gdansk3.appendChild(element3);
+// Tworzenie tablic dla każdego miasta
+createTablica(miasta[0], 'tablica_gdansk');
+createTablica(miasta[1], 'tablica_sopot');
+createTablica(miasta[2], 'tablica_gdynia');
