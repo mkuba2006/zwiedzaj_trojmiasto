@@ -51,6 +51,8 @@ label{
 #message{
     height: 190px;
     border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
 }
 #set:hover {
     background-position: right;
@@ -103,9 +105,6 @@ label{
     flex-direction: column;
     margin-bottom: 15px;
 }
-
-
-
 
 
 
@@ -331,21 +330,54 @@ label{
 
 
 @media screen and (max-width: 500px) {
+    #links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 11px;
+    }
+
+    #links a{
+        border: 2px solid rgba(0, 0, 0, 0.822);
+        padding: 5px 7px;
+        background: none;
+        border-radius: 50%;
+    }
+    #links i{
+        width: 15px;
+        height: 15px;
+        font-size: 11px;
+        color: black;
+    }
+    #infos{
+        font-size: 14px;
+    }
+    #infos p{
+        margin: 15px 0 0 5px;
+    }
     #sl5 #container{
         background-color: #ACFADF;
+        text-align: center;
     }
     #sl5 #container #obj {
-        padding: 45px 0;
+        padding: 45px 0 25px 0;
         margin: 0;
         justify-content: center;
         align-items: center;
         background: none;
     }
-    #formluarz h2 {
-        font-size: 35px;
+    #frm2h {
+        font-size: 30px;
     }
-    #set {
-        font-size: 20px;
+    #set2 {
+        padding: 6px 5px;
+        height: auto;
+        width: 90px;
+        font-size: 16px;
+        margin-top: 5px;
+        background-color: white;
+        color: black;
+        font-weight: 500;
     }
     input{
         border: 0px;

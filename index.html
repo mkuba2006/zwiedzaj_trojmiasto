@@ -22,8 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-</head>
+ </head>
 <body>
     <nav>
         <img id="logo2" src="./obrazy/logo1.png">
@@ -265,24 +266,25 @@
                         
                         <img id="plane" src="./obrazy/plane.png">
                     </div>
+
+
                     <form id="formluarz">
                         <h2>Skontaktuj się</h2>
                         <div id="xxx2">
                             <div>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" >
+                                <input type="email" id="email" name="email" required>
                             </div>
-                            
+                    
                             <div>
-                                <label for="name">Imię</label>
-                                <input type="text" id="name" name="name">
+                                <label for="nazwa">Imię</label>
+                                <input type="text" id="nazwa" name="mail" required>
                             </div>
-
-
                         </div>
+                    
                         <label id="tre" for="message">Treść</label>
-                        <textarea id="message" name="message" placeholder=""></textarea>
-                        
+                        <textarea id="message" name="message" placeholder="" required></textarea>
+                    
                         <input id="set" type="submit">
                     </form>
                 </div>   
@@ -359,7 +361,28 @@
                         Zwiedzaj<span id="sp1">Trojmiasto</span>.<span id="sp2">pl</span>
                     </h1>
                 </div>
-
+                <div id="befo">
+                    <div class="ticker-container">
+                        <div class="ticker-wrap">
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div id="blue1">
                     <img id="blue_one" src="./obrazy/wave-haikei (37).svg" alt="">
@@ -399,6 +422,28 @@
                        
                         </div>
                     
+                    </div>
+                </div>
+                <div id="befo">
+                    <div class="ticker-container">
+                        <div class="ticker-wrap2">
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        <p class="ticker-item">Trójmiasto</p>
+                        <p class="ticker-item">Gdańsk</p>
+                        <p class="ticker-item">Sopot</p>
+                        <p class="ticker-item">Gdynia</p>
+                        </div>
                     </div>
                 </div>
                 <div id="blue2">
@@ -491,14 +536,31 @@
                         <h1>Kontakt</h1> 
                         <div id="obj">
                             <div id="reszta"></div>
-                            <form id="formluarz">
-                                <h2>Skontaktuj się !</h2>
-                                <input type="text" placeholder="Imie:">
-                                <input type="text" placeholder="Mail:">
-                                <input type="text" placeholder="Treść:">
-                                <input id="set" type="submit">
+
+                            <form id="formluarz2" action="send.php" method="POST">
+                                <h2 id="frm2h">Skontaktuj się !</h2>
+                                <input type="text" id="nazwa2" name="mail" placeholder="Imię:" required>
+                                <input type="email" id="mail2" name="email" placeholder="Mail:" required>
+                                <input id="tresc2" name="message" placeholder="Treść:" required>
+                                <input id="set2" type="submit" value="Prześlij">
                             </form>
+                            
+
                         </div>   
+                        <div id="infos">
+                            <div id="links">
+                                <a href="https://www.facebook.com" class="social-btn" target="_blank">
+                                  <i class="fab fa-facebook-f"></i> 
+                                </a>
+                                <a href="mailto:example@example.com" class="social-btn">
+                                  <i class="fas fa-envelope"></i> 
+                                </a>
+                                <a href="https://www.linkedin.com" class="social-btn" target="_blank">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                            <p>© 2025 zwiedzajtrojmiasto.pl</p>
+                        </div>
                     </div>
                 </div>
 
@@ -517,23 +579,76 @@
                   const certificateImage = document.getElementById('certificate2');
                   const viewportWidth = window.innerWidth;
               
-                  console.log("Viewport Width:", viewportWidth); 
-              
                   if (viewportWidth < 1500) {
-                    console.log("Switching to certificate.png"); 
                     certificateImage.src = "./obrazy/certificate.png";
                   } else {
-                    console.log("Switching to certificate2.png"); 
                     certificateImage.src = "./obrazy/certificate2.png";
                   }
                 }
-              
-                // Initial check
                 updateImageSource();
-              
-                // Update on window resize
                 window.addEventListener('resize', updateImageSource);
               });
+
+              document.addEventListener('DOMContentLoaded', () => {
+                const form = document.getElementById("formluarz");
+                form.addEventListener('submit', (e) => {
+                  e.preventDefault();
+                  const mail = document.getElementById("email").value;
+                  const name = document.getElementById("nazwa").value;
+                  const message = document.getElementById("message").value;
+              
+                  console.log("Email:", mail);
+                  console.log("Name:", name);
+                  console.log("Message:", message);
+                });
+
+                document.getElementById('formluarz2').addEventListener('submit', function(e) {
+                    e.preventDefault(); 
+                    
+                    var formData = new FormData(this); 
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', 'send.php', true); 
+                    xhr.onload = function() {
+                        if (xhr.status === 200) {
+                            if (xhr.responseText === 'success') {
+                                console.log('Wiadomość została wysłana!');
+                            } else {
+                                console.log('Wystąpił błąd podczas wysyłania wiadomości.');
+                            }
+                        } else {
+                            console.log('Błąd połączenia z serwerem.');
+                        }
+                    };
+                    xhr.send(formData);
+                });
+                document.getElementById('formluarz').addEventListener('submit', function (e) {
+                    e.preventDefault();
+                
+                    var formData = new FormData(this);
+                    console.log(formData)
+                    var xhr = new XMLHttpRequest();
+                
+                    xhr.open('POST', 'send.php', true);
+                
+                    xhr.onload = function () {
+                        if (xhr.status === 200) {
+                            if (xhr.responseText === 'success') {
+                                console.log('Wiadomość została wysłana!');
+                            } else {
+                                console.log('Wystąpił błąd podczas wysyłania wiadomości.');
+                            }
+                        } else {
+                            console.log('Błąd połączenia z serwerem.');
+                        }
+                    };
+                
+                    xhr.send(formData);
+                });
+                
+              });
+              
+              
+
           </script>
 </body>
 </html>

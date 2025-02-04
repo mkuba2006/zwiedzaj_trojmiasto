@@ -8,6 +8,10 @@ aside {
     justify-content: flex-start;
     flex-direction: column;
 }
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
 
 #logo {
     padding-top: 30px;
@@ -303,7 +307,8 @@ nav #hrefs a button{
 }
 
 .menu {
-    display: block; 
+    display: flex; 
+    justify-content: center;
     position: absolute;
     top: 80px; 
     left: 0;
@@ -317,16 +322,24 @@ nav #hrefs a button{
 }
 
 .menu.active {
-    height: 170px; 
+    height: 76vh; 
+    padding-bottom: 100px;
+    overflow-y: hidden;
 }
 
 .menu ul {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
     list-style-type: none;
     padding: 0;
     margin: 0 0 10px 0;
 }
 
 .menu li {
+    font-size: 20px;
     padding: 10px;
     text-align: center;
 }

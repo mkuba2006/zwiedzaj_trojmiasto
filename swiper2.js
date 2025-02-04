@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function toggleMenu() {
     const menu = document.getElementById('menu');
     const burger = document.getElementById('burger');
+    document.body.classList.toggle('no-scroll');
+
     menu.classList.toggle('active');
     burger.classList.toggle('active');
 }

@@ -1,130 +1,150 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    padding: 0 0 0 5vw;
+    padding: 0;
     width: 100vw;
-    height: 100vh;
     box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 100px;
-}
-#wspolny_element{
-    margin-top: 150px;
-    display: flex;
-    border: none;
-    width: 600px;
-    height: 400px;
-    padding: 25px;
-    font-size: 20px;
-    border-radius: 12px;
-}
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(../obrazy/image.png); */
-    background-color: white;
-    background-position: center;
-    background-size: cover;
-    filter: blur(2px); 
-    z-index: -1; 
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
-#suma{
-    height: auto;
+.city-buttons-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: auto;
-    gap: 10px 40px;
-    height: 760px;
+    justify-content: space-around;
+    margin-bottom: 20px;
     margin-top: 50px;
-}
-ul{
-    padding-top: 50px;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    flex-wrap: wrap;
-}
-ul li{
-    padding: 0;
+    gap: 10px;
 }
 
-#trasy{
+.city-button {
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 11px 20px 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 22px;
+    border: none;
+    border: 2px solid rgb(182, 182, 182);
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.city-button.active {
+    color: white;
+    background: #16C47F;
+    border: 2px solid #16C47F;
+
+}
+/* .city-button:hover {
+    background-color: darkblue;
+} */
+
+.suma-container {
+    overflow: visible;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.suma-container ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
-    width: 420px;
-    margin: 0;
+    width: auto;
+    max-width: 1100px;
+    gap: 20px;
+    row-gap: 20px;
     padding: 0;
 }
-#trasa {
-    background-color: #f5f5f8;
-    width: 200px;
-    height: 110px; 
-    overflow: hidden;
-    transition: height 0.2s ease, background-color 0.2s ease, color 0.2s ease;
-    margin-bottom: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 10px;
+
+
+.suma-container ul .trasa{
+    border-radius: 8px;
+    width: 350px;
+    height: 280px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: #bbbbbb;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative; /* Make trasa relative so that description can be positioned absolutely */
+}
+
+#rama {
+    border-radius: 8px 8px 0 0;
+    width: 350px;
+    height: 210px;
+    overflow: hidden;  
+}
+
+#rama img {
+    width: 100%;
+    height: 100%;     
+    object-fit: cover; 
+    filter: brightness(0.9);
+    transition: transform .7s ease;  
+}
+
+#rama img:hover {
+    transform: scale(1.1);  
+}
+
+.suma-container ul .trasa button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     cursor: pointer;
-}
-
-#trasa button, #trasa p {
-    font-size: 19px;
-}
-
-#trasa:hover, #trasa:hover button {
-    background-color: #e1e1fc;
-    color: #5d5fef;
-    transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-
-
-#tablica_gdansk, #tablica_sopot , #tablica_gdynia{
-    height: min-content;
-}
-#main_tytul{
-    color: #5d5fef;
-    /* background-color: #f0f4f8;  */
-    background: none;
-    height: 45px; 
-    border-radius: 10px;
-    font-size: 30px;
+    width: 350px;
+    height: 70px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-#trasa button {
-    width: max-content;
-    background: none;
-    border: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 10px;
     font-size: 18px;
-    padding: 0;
-    cursor: pointer;
+    text-align: left;
+    background: white;
+    border: none;
+    text-transform: uppercase;
 }
 
-#gdansk_div button:hover ~ #gdansk_div{
-    height: 450px;
-    background-color: rgb(66, 85, 85);
+.description {
+    width: 330px;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    padding: 5px 10px 10px 10px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    z-index: 1;
+    max-height: 0; 
+    opacity: 0; 
+    visibility: hidden;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    transition: max-height 1.5s ease-in-out, opacity 1.5s ease, visibility 0s ease 0.5s;
+}
+
+.trasa.active .description {
+    max-height: 3450px; 
+    opacity: 1; 
+    visibility: visible; 
+    transition: max-height 1.5s ease-in-out, opacity 0.5s ease;
 }
 
 
@@ -135,56 +155,41 @@ ul li{
 
 
 
+@media screen and (max-width: 500px){
+    .city-button {
+        padding: 8px 17px 7px 17px;
+        font-size: 14px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1100px) {
-
-    body {
-        font-family: "Montserrat", sans-serif;
-        margin: 0;
+    .suma-container{
         padding: 0;
-        width: 100vw;
+    }  
+    .suma-container ul .trasa{
+        border-radius: 8px;
+        width: 90vw;
+        height: 280px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    #rama {
+        border-radius: 8px 8px 0 0;
+        width: 90vw;
+        height: 210px;
+        overflow: hidden;  
+    }
+    .suma-container ul .trasa button{
+        width: 90vw;
         height: auto;
-        box-sizing: border-box;
-        position: relative;
-        overflow-y: hidden;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        overflow: scroll;
-    }
-    ul{
-        padding: 0px;
-        justify-content: flex-start;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        flex-wrap: wrap;
-    }
-    body::before {
-        content: "";
-        position: fixed; /* Changed from absolute to fixed */
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url(../obrazy/image.png);
-        background-position: center;
-        background-size: cover;
-        filter: blur(2px); 
-        z-index: -1; 
+        padding: 15px 10px;
+        font-size: 18px;
     }
     
+    .description {
+        width: 84vw;
+        position: absolute;
+        top: 96%;
+        padding: 5px 3vw 20px 3vw;
+        font-size: 15px;
+    }
 }
-
 
