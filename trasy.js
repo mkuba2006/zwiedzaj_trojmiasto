@@ -1,5 +1,4 @@
 const trasy = [
-    // Trasy dla Gdańska
     {
         miasto: "Gdańsk",
         nazwa: "Droga Królewska",
@@ -131,6 +130,7 @@ cities.forEach(city => {
 sumaContainer.appendChild(cityButtonsContainer);
 
 function updateOffers(city) {
+    
     ul.innerHTML = ''; // Czyścimy poprzednie oferty
     trasy.forEach((trasa, index) => {
         if (trasa.miasto === city || city === "All") {

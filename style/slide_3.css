@@ -81,7 +81,7 @@
     z-index: 500;
 }
 
-#text_box1 #name{
+#text_box1 #name,#text_box1 #name2{
     color: #ffffff;
     font-size: 30px;
     margin: 5px 0 1px 0;
@@ -207,7 +207,7 @@
         height: 274px;
     }
     
-    #text_box1 #name{
+    #text_box1 #name,#text_box1 #name2{
         transform: translateY(-10px);
         font-size: 27px;
         margin: 0;
@@ -288,18 +288,23 @@
 
 
     #back_bg1 {
-        transform: rotate(-8deg) translate(-30px,-5px);
+        transform: rotate(-8deg) translate(-20px,-5px);
     }
     #back_bg2 {
-        transform: rotate(-8deg) translate(-30px,0px);
+        transform: rotate(-8deg) translate(-20px,0px);
     }
     #back_bg3 {
-        transform: rotate(-8deg) translate(-30px,-5px);
+        transform: rotate(-8deg) translate(-20px,-5px);
     }
     
     
     #text_box1 #name{
         transform: translateY(-5px);
+        font-size: 25px;
+        margin: 0;
+    }
+    #text_box1 #name2{
+        transform: translateY(0px);
         font-size: 25px;
         margin: 0;
     }
@@ -324,6 +329,7 @@
         margin: 0 auto;
         padding: 0px 0 4px 0;
         transition: 1.3s ease;
+        transform: translateY(4px);
     }
     #back_bg2 {
         width: 456px;
@@ -334,7 +340,7 @@
     #dodaj2{
         transform: translateY(5px);
         font-size: 18px;
-        padding: 0 0 4px 0;
+        padding: 0 0 14px 0;
     }
 
 }
