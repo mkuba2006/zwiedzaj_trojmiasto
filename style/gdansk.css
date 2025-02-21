@@ -7,19 +7,25 @@ body {
     box-sizing: border-box;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     justify-content: flex-start;
-    gap: 100px;
+    
     background-color: #f9f9f9;
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+#img22 {
+    filter: invert(1);
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+ }
 .city-buttons-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     gap: 10px;
 }
 

@@ -85,6 +85,17 @@ function setupNavigation() {
         });
     });
 }
+function setupNavigation3() {
+    // Select all anchor tags inside the specified div
+    document.querySelectorAll("#xx43 a").forEach((link, index) => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault(); // Prevent default anchor behavior
+            
+            // Slide to the respective swiper slide based on the index
+            swiper1.slideTo(index + 3); // slideTo should align with the data-swiper-slide attribute
+        });
+    });
+}
 function setupNavigation2() {
     document.querySelectorAll("#nav_ul a").forEach((link) => {
         link.addEventListener("click", (e) => {
@@ -111,7 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
     initializeSwiper();
     setupHoverEffects();
     setupNavigation();
-    setupNavigation2()
+    setupNavigation2();
+    setupNavigation3();
     setupButtonClickHandlers();
 });
 

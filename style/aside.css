@@ -1,5 +1,5 @@
 aside {
-    background-color: #21014e;/* background-color: #11101d; */
+    background-color: #00235B;/* background-color: #11101d; */
     width: 300px;
     max-width: 300px;
     height: 100vh;
@@ -46,7 +46,7 @@ a {
 }
 
 .li_aside .column:hover, .li_aside .column.active {
-    background: #836FFF;
+    background: #FFEB00;
 }
 
 .column.hovered {
@@ -57,7 +57,7 @@ a {
 }
 
 #aside_ul a button.active2{
-    color: #836FFF;
+    color: #FFEB00;
 }
 
 
@@ -73,7 +73,7 @@ a {
     width: 200px;
     text-align: left;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 30px;
     transition: 0.3s ease;
     height: 50px;
     border-radius: 13px;

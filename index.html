@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
  </head>
 <body>
     <nav>
@@ -67,11 +68,11 @@
                         Trasy
                     </a>
                 </li>
-                <li class="li_nav">
+                <!-- <li class="li_nav">
                     <a href="#sl3" data-swiper-slide="3">
                         Blog
                     </a>
-                </li>
+                </li> -->
                 <li class="li_nav">
                     <a href="#sl4" data-swiper-slide="4">
                         Kontakt
@@ -97,12 +98,12 @@
                 <button id="btn_trasy">Trasy</button>
             </a>
         </li>
-        <li class="li_aside">
+        <!-- <li class="li_aside">
             <div class="column"></div>
             <a href="#sl4" data-swiper-slide="3">
                 <button id="btn_blog">Blog</button>
             </a>
-        </li>
+        </li> -->
         <li class="li_aside">
             <div class="column"></div>
             <a href="#sl5" data-swiper-slide="4">
@@ -135,6 +136,11 @@
             <h1>
                 Zwiedzaj<span id="sp1">Trojmiasto</span>.<span id="sp2">pl</span>
             </h1>
+            <div id="xx43">
+                <a href="#sl1"  data-swiper-slide="1" id="path">O mnie</a>
+                <a href="#sl5" data-swiper-slide="5" id="path">Kontakt</a>
+            </div>
+
         </div>
         <div class="swiper-slide content" id="sl2">
             <div id="sl2_container">
@@ -216,7 +222,10 @@
                             </span>
                         </div>
                         <div id="but2">
-                            <button id="dodaj2">Zapisz Się</button>
+                            <a href="./gdansk.html">
+                                <button id="dodaj2">Zapisz Się</button>
+                            </a>
+                            
                             <div id="under2"></div>
                         </div>
                     </div>
@@ -229,7 +238,9 @@
                             <h1 id="name">GDYNIA</h1>
                         </div>
                         <div id="but1">
-                            <button id="dodaj1">Zapisz Się</button>
+                            <a href="./gdansk.html">
+                                <button id="dodaj2">Zapisz Się</button>
+                            </a>
                             <div id="under1"></div>
                         </div>
                     </div>
@@ -285,7 +296,7 @@
                         <label id="tre" for="message">Treść</label>
                         <textarea id="message" name="message" placeholder="" required></textarea>
                     
-                        <input id="set" type="submit">
+                        <input id="set" type="submit" value="Wyslij">
                     </form>
                 </div>   
             </div>
@@ -542,7 +553,7 @@
                                 <input type="text" id="nazwa2" name="mail" placeholder="Imię:" required>
                                 <input type="email" id="mail2" name="email" placeholder="Mail:" required>
                                 <input id="tresc2" name="message" placeholder="Treść:" required>
-                                <input id="set2" type="submit" value="Prześlij">
+                                <input id="set2" type="submit" value="Wyslij">
                             </form>
                             
 
