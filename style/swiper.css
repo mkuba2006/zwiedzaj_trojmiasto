@@ -41,8 +41,8 @@
     transition: all 0.3s ease;
 }
 #path:hover{
-    border: 2px solid #F9E400;
-    background-color: #F9E400;
+    background-color: white;
+    color: black;
 }
 #sl1 h1{
     display: flex;

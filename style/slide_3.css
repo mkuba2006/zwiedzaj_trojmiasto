@@ -299,7 +299,11 @@
         margin: 0;
     }
     #text_box1 #name2{
+<<<<<<< HEAD
         transform: translateY(3px);
+=======
+        transform: translateY(0px);
+>>>>>>> a7a507db9c5d975abc2deb0e86237d0f583d4566
         font-size: 25px;
         margin: 0;
     }
