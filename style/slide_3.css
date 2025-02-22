@@ -40,7 +40,7 @@
     position: absolute;
     width: 600px;
     height: 300px;
-    background-color: #AF1740;
+    background-color: #ABBA7C;
     top: 60%;
     transform: rotate(-8deg) translate(-20px);
     z-index: 100;
@@ -49,7 +49,7 @@
     position: absolute;
     width: 600px;
     height: 300px;
-    background-color: #FABC3F;
+    background-color: #FFEB00;
     top: 60%;
     transform: rotate(-8deg) translate(-30px);
     z-index: 100;
@@ -81,7 +81,7 @@
     z-index: 500;
 }
 
-#text_box1 #name{
+#text_box1 #name,#text_box1 #name2{
     color: #ffffff;
     font-size: 30px;
     margin: 5px 0 1px 0;
@@ -126,23 +126,23 @@
 #under1{
     display: block;
     width: 0px;
-    height: 1px;
-    background-color: #000000;
+    height: 2px;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     transition: .4s ease;
 }
 
-#but1:hover #under1, #but1:hover #dodaj1{
+#but1:hover #under1, #but1:hover #dodaj1, #but2:hover #under2, #but2:hover #dodaj2{
     width: 125px;
-    color: #000000;
+    color: #ffffff;
 }
 
 #under2{
     display: block;
     width: 0px;
     height: 2px;
-    background-color: #FFBF00;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     transition: .4s ease;
@@ -167,11 +167,6 @@
     margin: 0 auto;
     transition: 1.3s ease;
 }
-#but2:hover #under2, #but2:hover #dodaj2{
-    width: 125px;
-    color: #FFBF00;
-}
-
 
 
 
@@ -207,7 +202,7 @@
         height: 274px;
     }
     
-    #text_box1 #name{
+    #text_box1 #name,#text_box1 #name2{
         transform: translateY(-10px);
         font-size: 27px;
         margin: 0;
@@ -288,18 +283,23 @@
 
 
     #back_bg1 {
-        transform: rotate(-8deg) translate(-30px,-5px);
+        transform: rotate(-8deg) translate(-20px,-5px);
     }
     #back_bg2 {
-        transform: rotate(-8deg) translate(-30px,0px);
+        transform: rotate(-8deg) translate(-20px,0px);
     }
     #back_bg3 {
-        transform: rotate(-8deg) translate(-30px,-5px);
+        transform: rotate(-8deg) translate(-20px,-5px);
     }
     
     
     #text_box1 #name{
         transform: translateY(-5px);
+        font-size: 25px;
+        margin: 0;
+    }
+    #text_box1 #name2{
+        transform: translateY(3px);
         font-size: 25px;
         margin: 0;
     }
@@ -324,6 +324,7 @@
         margin: 0 auto;
         padding: 0px 0 4px 0;
         transition: 1.3s ease;
+        transform: translateY(4px);
     }
     #back_bg2 {
         width: 456px;
@@ -332,9 +333,9 @@
         transform: translateY(0px);
     }
     #dodaj2{
-        transform: translateY(5px);
+        transform: translateY(9px);
         font-size: 18px;
-        padding: 0 0 4px 0;
+        padding: 0 0 14px 0;
     }
 
 }
@@ -379,7 +380,9 @@
     }
 
 
-
+    #but1 {
+        transform: translateY(0);
+    }
 
 
     #back_bg1 {
@@ -394,7 +397,8 @@
     
     
     #text_box1 #name{
-        transform: translateY(-25px);
+        /* transform: translateY(-20px); */
+        transform: translateY(-17px);
         font-size: 20px;
         margin: 0;
         padding: 0;
@@ -407,7 +411,8 @@
     
     
     #dodaj1{
-        transform: translateY(-25px);
+        /* transform: translateY(-25px); */
+        transform: translateY(-19px);
         font-size: 18px;
     }
     #under1{
@@ -432,11 +437,14 @@
         transform: translateY(11px);
     }
     #dodaj2{
-        transform: translateY(-8px);
+        transform: translateY(-5px);
         font-size: 18px;
         padding: 0 0 4px 0;
     }
-
+    #text_box1 #name2{
+        font-size: 20px;
+        transform: translateY(-18px);
+    }
 }
 
 
@@ -479,6 +487,9 @@
     #back_bg3 {
         width: 800px;
         transform: rotate(-8deg) translate(-35px, -23px);
+    }
+    #text_box1 #name {
+        padding-left: 10px;
     }
 }
 

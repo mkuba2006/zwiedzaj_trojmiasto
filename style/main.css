@@ -11,4 +11,6 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+#sl4{
+    display: none;
+}

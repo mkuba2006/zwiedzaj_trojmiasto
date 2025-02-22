@@ -25,13 +25,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 40px;
     letter-spacing: 1px;
 }
 
+#path{
+    list-style: none;
+    color: black;
+    background: white;
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 16px;
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+#path:hover{
+    border: 2px solid #F9E400;
+    background-color: #F9E400;
+}
 #sl1 h1{
     display: flex;
     gap: 3px;
+    margin: 20px 0;
 }
 
 ul{
@@ -107,7 +123,16 @@ ul{
     #sl1{
         font-size: 30px;
     }
-    
+    #xx43{
+        display: flex;
+        gap: 20px;
+    }
+    #path{
+        padding: 6px 15px;
+        border-radius: 16px;
+        font-size: 22px;
+        transition: all 0.3s ease;
+    }
 }
 @media screen and (max-width:1500px) {
     #sl5 h1{
@@ -121,7 +146,6 @@ ul{
         color: white;
         margin: 20px 0;
     }
-
 }
 
 
@@ -194,7 +218,7 @@ ul{
         padding: 100px 0 30px 0;
         flex-direction: column;
     }
-    #sl3 h1, #sl4 h1, #sl5 h1 {
+    #sl3 #h1, #sl4 h1, #sl5 h1 {
         font-size: 40px;
         color: white;
         padding-left: 30px;
@@ -257,7 +281,7 @@ ul{
     }
     #sl5 #container {
         display: flex;
-        padding: 0 0 30px 0;
+        padding: 0 0 10px 0;
         background-color: #EEEEEE;
     }
     #sl3 #container{

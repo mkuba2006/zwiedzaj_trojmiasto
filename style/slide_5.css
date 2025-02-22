@@ -22,11 +22,14 @@ form{
 input{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
+    margin-top: 3px;
     padding: 5px 10px;
-    border: 1px solid grey;
+    background-color: rgb(255 255 255 / 7%);
+    border: 1px solid black;
     height: 40px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 8px;
+    font-weight: 500;
 }
 
 #set {
@@ -48,11 +51,13 @@ input{
 label{
     font-size: 22px;
 }
-#message{
+#message {
     height: 190px;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
+    background-color: rgb(255 255 255 / 7%);
+    border: 1px solid black;
 }
 #set:hover {
     background-position: right;
@@ -134,14 +139,11 @@ label{
 
 
 
-@media screen and (max-width:1500px) {
+
+@media screen and (max-width: 1580px) {
     #sl5 h1{
         display: none;
     }
-}
-
-
-@media screen and (max-width: 1480px) {
     #sl5 #container #obj{
         padding: 45px 50px ;
         border-radius: 18px;
@@ -210,7 +212,7 @@ label{
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
         padding: 5px 10px;
-        border: 1px solid grey;
+        
         height: 40px;
         width: 300px;
         border-radius: 10px;
@@ -279,7 +281,6 @@ label{
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
         padding: 4px 8px;
-        border: 1px solid grey;
         height: 30px;
         width: 215px;
         border-radius: 10px;
@@ -330,6 +331,9 @@ label{
 
 
 @media screen and (max-width: 500px) {
+    form{
+        align-items: flex-end;
+    }
     #links{
         display: flex;
         flex-direction: row;
@@ -338,25 +342,29 @@ label{
     }
 
     #links a{
-        border: 2px solid rgba(0, 0, 0, 0.822);
+        border: 0px solid rgba(0, 0, 0, 0.822);
         padding: 5px 7px;
         background: none;
         border-radius: 50%;
     }
     #links i{
-        width: 15px;
-        height: 15px;
-        font-size: 11px;
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
         color: black;
     }
-    #infos{
+    #infos {
         font-size: 14px;
+        display: flex;
+        align-content: center;
+        flex-direction: column-reverse;
+        gap: 13px;
     }
     #infos p{
         margin: 15px 0 0 5px;
     }
     #sl5 #container{
-        background-color: #ACFADF;
+        background-color: white;
         text-align: center;
     }
     #sl5 #container #obj {
@@ -372,14 +380,20 @@ label{
     #set2 {
         padding: 6px 5px;
         height: auto;
-        width: 90px;
-        font-size: 16px;
+        width: 120px;
+        height: 40px;
+        font-size: 19px;
         margin-top: 5px;
-        background-color: white;
-        color: black;
+        background: black;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        color: white;
         font-weight: 500;
     }
     input{
-        border: 0px;
+        height: 30px;
+        background: none;
+        width: 235px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        padding: 5px 10px;
     }
 }
