@@ -483,7 +483,7 @@
         margin-top: 10px;
     }
     #sl2_text {
-        color: white;
+        color: black;
     }
     #sl2_content{
         color: white;
@@ -492,7 +492,7 @@
         padding: 45px 0 127px 0;
         border-radius: 0px;
         max-width: 650px;
-        background-color: #21014e;
+        background-color: white;
     }
     #rest {
         display: flex;
@@ -503,7 +503,7 @@
         align-items: center;
     }
     #sl2_about li {
-        background-image: url(../obrazy/verify.png);
+        background-image: url(../obrazy/verified1.png);
         background-size: 18px 18px;
         background-repeat: no-repeat;
         background-position: 0 50%;

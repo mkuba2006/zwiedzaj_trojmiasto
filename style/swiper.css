@@ -228,6 +228,23 @@ ul{
 
 
 @media screen and (max-width: 500px) {
+    #xx43 {
+        gap: 10px;
+    }
+    #path{
+        list-style: none;
+        color: white;
+        background: none;
+        border: 0 solid white;
+        padding:0;
+        border-radius: 16px;
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    #path:hover{
+        background: none;
+        color: white;
+    }
     /* #blue1, #blue2{
         display: block;
         height: auto;
@@ -261,14 +278,12 @@ ul{
         padding: 80px 20px 0 20px;
         max-height: 700px !important;
         height: calc(100vh - 165px);
-        background: 
-            linear-gradient(to bottom, rgba(33, 1, 78, 0) 0%, rgba(33, 1, 78, 1) 100%), 
-            url('../obrazy/gda.jpg') no-repeat center center fixed;
+        background:  url('../obrazy/Multimedia\ \(5\).jpg') no-repeat center center fixed;
         background-size: cover;
     }
       
     .mySwiper .swiper-pagination-bullet-active {
-        background-color: #21014e !important;
+        background-color: white !important;
     }
     .parallax-bg {
         background: white;
@@ -289,6 +304,7 @@ ul{
         padding: 10px 0 30px 0;
         flex-direction: column;
     }
+    
 }
 
 #befo{
@@ -300,7 +316,7 @@ ul{
     position: relative;
     width: 100%;
     overflow: hidden;
-    background-color: #21014e;
+    background-color: white;
     padding: 20px 0; 
     color: white;
   }
@@ -323,7 +339,7 @@ ul{
     margin: 0 20px;
     font-size: 20px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.897);
+    color: black;
   }
 
   @keyframes scroll {
