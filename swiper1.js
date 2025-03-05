@@ -92,7 +92,7 @@ function setupNavigation3() {
             e.preventDefault(); // Prevent default anchor behavior
             
             // Slide to the respective swiper slide based on the index
-            swiper1.slideTo(index + 3); // slideTo should align with the data-swiper-slide attribute
+            swiper1.slideTo(index + 1); // slideTo should align with the data-swiper-slide attribute
         });
     });
 }
@@ -127,3 +127,16 @@ document.addEventListener("DOMContentLoaded", () => {
     setupButtonClickHandlers();
 });
 
+const menu = document.querySelector('.menu');
+
+const toggleScroll = () => {
+    if (menu.classList.contains('active')) {
+        document.body.style.overflow = 'hidden'; // Blokuje scrollowanie
+    } else {
+        document.body.style.overflow = ''; // Przywraca scrollowanie
+    }
+};
+
+// Nasłuchiwanie zmian klasy "active"
+const observer = new MutationObserver(toggleScroll);
+observer.observe(menu, { attributes: true, attributeFilter: ['class'] });

@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'NeonFont';
+    src: url('../fonts/Neon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'Outline';
+    src: url('../fonts/out1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 #mon2{
     display: none;
 }
@@ -12,7 +26,6 @@
     display: none;
 }
 .swiper{
-    /* width: calc(100vw - 300px); */
     width: calc(100vw- 300px);
     height: 100vh;
 }
@@ -20,7 +33,6 @@
     background-color: #F9E400 !important;
 }
 #sl1{
-    /* background-color: #17153B; */
     background: none;
     display: flex;
     justify-content: center;
@@ -30,30 +42,65 @@
     letter-spacing: 1px;
 }
 
-#path{
-    list-style: none;
-    color: black;
-    background: white;
-    border: 2px solid white;
-    padding: 8px 18px;
-    border-radius: 16px;
-    font-size: 28px;
-    transition: all 0.3s ease;
-}
-#path:hover{
-    background-color: white;
-    color: black;
-}
-#sl1 h1{
+#xx43{
+    color: white;
     display: flex;
-    gap: 3px;
-    margin: 20px 0;
+    gap: 30px;
 }
+#path, #path2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    list-style: none;
+    color: white;
+    background: none;
+    font-size: 25px;
+    padding: 6px 64px;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+
+#path {
+    background: linear-gradient(90deg, #8B5DFF 50%, #563A9C 120%);
+    border: 2px solid transparent; 
+}
+
+#path2 {
+    border: 2px solid white;   
+}
+
+#path:hover {
+    background: linear-gradient(90deg, #8B5DFF 50%, #563A9C 180%);
+    border-color: #563A9C; 
+}
+
+#path2:hover {
+    color: #201c24;
+    background-color: white;
+}
+
+#sl1 h1 {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    display: flex;
+    margin: 30px 0;
+    color: #fffc00;
+}
+
+
 
 ul{
   list-style-type: none;
 }
-#sl1{
+
+/* #sl1{
     color: #FFDE4D;
 }
 
@@ -63,7 +110,7 @@ ul{
 
 #sp2{
     color: #FFDE4D;
-}
+} */
 
 
 
@@ -83,7 +130,7 @@ ul{
     width: 130%;
     height: 100%;
     -webkit-background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../obrazy/image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(20, 20, 20, 0.6)), url('https://invilla.pl/wp-content/uploads/2020/11/AdobeStock_340287837-scaled-1.jpeg');
     background-position: center;
     background-size: cover; 
 }
@@ -120,18 +167,22 @@ ul{
 }
 
 @media screen and (max-width:1300px) {
-    #sl1{
-        font-size: 30px;
+    #xx43{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #path , #path2{
+        font-size: 26px;
+        
+    }
+    #sl1 h1 {
+        font-size: 60px;
+        margin: 20px 0;
     }
     #xx43{
         display: flex;
         gap: 20px;
-    }
-    #path{
-        padding: 6px 15px;
-        border-radius: 16px;
-        font-size: 22px;
-        transition: all 0.3s ease;
     }
 }
 @media screen and (max-width:1500px) {
@@ -188,12 +239,19 @@ ul{
         font-size: 22px;
     }
     #sl1 h1{
+        font-size: 45px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     #sl3{
         height: auto !important;
+    }
+    #path, #path2 {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 5px 54px;
+        border-radius: 25px;
     }
 
 .swiper-slide {
@@ -245,6 +303,9 @@ ul{
         background: none;
         color: white;
     }
+    #sl1 h1{
+        font-size: 35px;
+    }
     /* #blue1, #blue2{
         display: block;
         height: auto;
@@ -277,7 +338,7 @@ ul{
         font-size: 18px;
         padding: 80px 20px 0 20px;
         max-height: 700px !important;
-        height: calc(100vh - 165px);
+        height: 100vh;
         background:  url('../obrazy/Multimedia\ \(5\).jpg') no-repeat center center fixed;
         background-size: cover;
     }

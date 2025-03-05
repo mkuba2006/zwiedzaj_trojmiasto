@@ -17,12 +17,13 @@
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #191919, #201c24);
     padding: 50px 60px 70px 60px;
     border-radius: 20px;
     max-width: 1300px;
 }
 #sl2_about{
+    color: #e2e0e2;
     margin: 5px 0 0 5px;
     list-style: none;
     padding-left: 0;
@@ -30,7 +31,7 @@
 }
 
 #sl2_about li{
-    background-image: url('../obrazy/verified1.png');
+    background-image: url('../obrazy/verify.png');
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: 0 50%; 
@@ -52,6 +53,7 @@
     flex-wrap: nowrap;
 }
 #certyfikaty h2{
+    color: #FFEB00;
     margin: 0 0 10px 0;
     font-size: 45px;
 }
@@ -70,10 +72,12 @@
 }
 
 #sl2_text h1{
+    color: #FFEB00;
     margin: 10px 5px;
 }
 
 #sl2_text h3{
+    color: #e2e0e2;
     margin: 0 0 30px 5px;
     font-size: 20px;
     font-weight: 400;
@@ -163,7 +167,6 @@
     }
     
     #sl2_about li{
-        background-image: url('../obrazy/verified1.png');
         background-size: 21px 21px;
         background-repeat: no-repeat;
         background-position: 0 50%; 
@@ -275,7 +278,6 @@
     }
     
     #sl2_about li{
-        background-image: url('../obrazy/verified1.png');
         background-size: 20px 20px;
         background-repeat: no-repeat;
         background-position: 0 50%; 
@@ -367,7 +369,6 @@
     }
     
     #sl2_about li{
-        background-image: url('../obrazy/verified1.png');
         background-size: 18px 18px;
         background-repeat: no-repeat;
         background-position: 0 50%; 
@@ -479,6 +480,9 @@
 
 
 @media screen and (max-width: 500px) {
+    #sl2_container {
+        margin-bottom: 30px;
+    }
     #certyfikaty {
         margin-top: 10px;
     }
@@ -492,7 +496,10 @@
         padding: 45px 0 127px 0;
         border-radius: 0px;
         max-width: 650px;
-        background-color: white;
+        background: white;
+    }
+    #sl2_text h3 {
+        color: #000000;
     }
     #rest {
         display: flex;
@@ -501,6 +508,9 @@
         width: 85vw;
         padding: 0;
         align-items: center;
+    }
+    #sl2_about {
+        color: #000000;
     }
     #sl2_about li {
         background-image: url(../obrazy/verified1.png);
